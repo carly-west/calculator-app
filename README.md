@@ -6,9 +6,7 @@ This app has both a calculator, and a tipping calculator. To test this app, open
 
 The purpose of this software is to provide a simple calculator that only does addition, subtraction, division, and multiplication. The tipping calculator allows you to type the amount the meal was, and the percentage to tip.
 
-{Provide a link to your YouTube demonstration.  It should be a 4-5 minute demo of the software running (starting the server and navigating through the web pages) and a walkthrough of the code.}
-
-[Software Demo Video](http://youtube.link.goes.here)
+[Calculator App Demo Video](https://youtu.be/N8RpPp3Wjuw)
 
 # Web Pages
 
