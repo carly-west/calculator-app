@@ -66,7 +66,6 @@ export class CalculatorComponent implements OnInit {
       this.totalOfMath = "Please input numbers!";
     }
 
-
   }
 
   onClickOperator(event: any) {
@@ -101,8 +100,6 @@ export class CalculatorComponent implements OnInit {
         for (var i = 0; i < this.equation.length; i++){
           console.log(this.total)
           console.log(this.equation[i])
-
-
           this.total = parseFloat(this.equation[i]) - this.total;
         }
       }

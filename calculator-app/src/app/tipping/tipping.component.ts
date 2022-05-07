@@ -10,9 +10,8 @@ import { Component, OnInit } from '@angular/core';
 
 export class TippingComponent implements OnInit {
 
-
-  tip: number = 0;
   price: number = 0;
+  tip: number = 0;
   total: number = 0;
 
   selectedIndex = -1;
@@ -25,16 +24,12 @@ export class TippingComponent implements OnInit {
     this.selectedIndex = id;
   }
 
-
+  setPrice(event: any){
+    this.price = +event.target.value;
+  }
 
   setTip(event: any){
     this.tip = +event.target.value;
-    console.log(this.tip);
-  }
-
-  setPrice(event: any){
-    this.price = +event.target.value;
-    console.log(this.price);
   }
 
   onClickCalc(event: any){
