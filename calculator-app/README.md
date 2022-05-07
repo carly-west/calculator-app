@@ -12,8 +12,6 @@ The purpose of this software is to provide a simple calculator that only does ad
 
 # Web Pages
 
-{Describe each of the web pages you created and how the web app transitions between each of them.  Also describe what is dynamically created on each page.}
-
 The first page I created was the home page, which just has the logo, and navigation buttons. The second page created is the "Calculator" page, which has a simple calculator that allows the user to put two separate values in, choose the math operation, and then click the calculate button. The third page is the "Tipping Calculator" page that allows the user to input the meal price, select the percentage they would like to tip, and then calculate it.
 
 The pages are dynamically created without having to navigate between different HTML pages. In other words, the page doesn't reload each time the navigation buttons are clicked. This is done by using routing to generate the different components based on which navigation is selected.
